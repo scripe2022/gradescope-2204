@@ -6,4 +6,4 @@ apt install -y build-essential gcc-arm-linux-gnueabihf binutils-arm-linux-gnueab
 
 git clone https://github.com/scripe2022/prebuilt-crosscompiled-valgrind.git valgrind-prebuilt
 chmod +x valgrind-prebuilt/install.sh
-./install.sh
+./valgrind-prebuilt/install.sh
